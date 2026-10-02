@@ -1,0 +1,33 @@
+MOTION STUDIO — START HERE
+==========================
+
+Everything is in THIS ONE FOLDER. There are no assets/ or api/ subfolders.
+
+1. Make sure PHP is installed.
+2. For reliable MP4 conversion, install FFmpeg.
+3. Run one of these:
+
+   macOS / Linux:
+     ./start.sh
+
+   Windows:
+     start.bat
+
+   Or manually:
+     php -S 127.0.0.1:8080
+
+4. Open:
+     http://127.0.0.1:8080/
+
+Do not double-click index.php as a file:// page. Run it through PHP.
+
+QUICK WORKFLOW
+--------------
+Templates -> choose a complete motion look.
+Click headline -> change text in Inspector.
+Drag objects directly on canvas.
+Scene -> change duration/background/transition.
+Timeline -> use + Scene or the + connector between scenes.
+Play -> Space bar or top play button.
+Export -> Export -> Export MP4.
+
